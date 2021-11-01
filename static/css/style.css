@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+    background-color: red;
+    width: 40%;
+    padding: 20px 0;
+    color: white;
+}
+
+.col {
+    display: flex;
+}
+
+.row {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.red:hover {
+    background-color: black;
+}
+
+.black {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.black:hover {
+    background-color: red;
+}
